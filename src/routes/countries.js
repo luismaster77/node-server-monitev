@@ -7,7 +7,7 @@ const pool = require("../databases");
 }) */
 
 routes.get('/countries', async function (req, res) {
-    const countries =  await pool.query('Select * from countries');
+    const countries =  await pool.query('Select * from countries2');
     res.send(countries);
 })
 

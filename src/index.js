@@ -6,7 +6,7 @@ const MySQLStore = require('express-mysql-session')(session);
 const { database } = require('./keys');
 const bodyParser = require('body-parser');
 var corsOptions = {
-  origin: "http://localhost:4000"
+  origin: "http://localhost:4200"
 };
 
 const app = express();
